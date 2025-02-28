@@ -1,0 +1,8 @@
+struct PhonePkeyInfo {
+    u32 hash_len;
+    u8 hash[hash_len];
+    u32 phone_act_data_len;
+    u8 phone_act_data[phone_act_data_len]; 
+};
+
+PhonePkeyInfo ppi @ 0x0;

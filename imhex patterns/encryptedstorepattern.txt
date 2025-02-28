@@ -1,0 +1,9 @@
+struct HeaderContent {
+    u32 version;
+    u8 randomCounter[12];
+    u8 aesKeySign[128];
+    u8 encryptedAesKey[128];
+    
+};
+
+HeaderContent headercontent @ 0x00;

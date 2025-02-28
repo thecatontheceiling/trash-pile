@@ -1,0 +1,8 @@
+struct PhoneHwidBlock {
+    u32 hash_len;
+    u8 hash[hash_len];
+    u32 hwid_len;
+    u8 hwid[hwid_len]; 
+};
+
+PhoneHwidBlock phb @ 0x0;
